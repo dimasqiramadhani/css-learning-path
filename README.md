@@ -7,26 +7,31 @@ Repositori ini adalah kumpulan lengkap sumber daya, contoh, dan proyek untuk mem
 ## 📂 Isi Repositori
 
 ### 1. **Pengenalan CSS**
+
 - Dasar-dasar CSS
 - Menyiapkan lingkungan pengembangan
 - Sintaks dan struktur CSS
 
 ### 2. **Selektor dan Spesifisitas**
+
 - Selektor dasar dan kompleks
 - Spesifisitas dan prioritas
 - Pseudo-klas dan pseudo-elemen
 
 ### 3. **Properti CSS Dasar**
+
 - Warna, latar belakang, dan batas
 - Margin, padding, dan box model
 - Teks dan font
 
 ### 4. **Layout dan Positioning**
+
 - Display dan visibility
 - Positioning (static, relative, absolute, fixed, sticky)
 - Flexbox dan Grid
 
 ### 6. **Animasi dan Transisi**
+
 - Transisi CSS
 - Animasi keyframe
 
@@ -35,14 +40,16 @@ Repositori ini adalah kumpulan lengkap sumber daya, contoh, dan proyek untuk mem
 Untuk memulai dengan repositori ini:
 
 1. **Klon repositori:**
-    ```bash
-    git clone https://github.com/dimasqiramadhani/CSS-tutorial.git
-    ```
+
+   ```bash
+   git clone https://github.com/dimasqiramadhani/css-learning-path.git
+   ```
 
 2. **Masuk ke direktori proyek:**
-    ```bash
-    cd CSS-tutorial
-    ```
+
+   ```bash
+   cd css-learning-path
+   ```
 
 3. **Buka file index.html di browser pilihan Anda untuk mulai menjelajahi contoh dan proyek.**
 
