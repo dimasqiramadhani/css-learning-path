@@ -1,0 +1,55 @@
+.kotak1 {
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 0);
+}
+
+.kotak2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+/* opacity background-color */
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+  float: left;
+  line-height: 100px;
+  text-align: center;
+}
+
+.satu {
+  /* opacity: 1; */
+  background-color: rgba(36, 194, 128, 1);
+}
+
+.dua {
+  /* opacity: 0.8; */
+  background-color: rgba(36, 194, 128, 0.8);
+}
+
+.tiga {
+  /* opacity: 0.6; */
+  background-color: rgba(36, 194, 128, 0.6);
+}
+
+.empat {
+  /* opacity: 0.4; */
+  background-color: rgba(36, 194, 128, 0.4);
+}
+
+.lima {
+  /* opacity: 0.2; */
+  background-color: rgba(36, 194, 128, 0.2);
+}
+
+.enam {
+  /* opacity: 0; */
+  background-color: rgba(36, 194, 128, 0);
+}

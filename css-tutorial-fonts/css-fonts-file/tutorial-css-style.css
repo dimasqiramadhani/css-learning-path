@@ -1,0 +1,33 @@
+/* Font style */
+
+.p-example1 {
+  font-style: normal;
+}
+
+.p-example2 {
+  font-style: italic;
+}
+
+.p-example3 {
+  font-style: oblique;
+}
+
+/* Font Weight */
+
+.p-example4 {
+  font-weight: normal;
+}
+
+.p-example5 {
+  font-weight: bold;
+}
+
+/* Font variant */
+
+.p-example6 {
+  font-variant: normal;
+}
+
+.p-example7 {
+  font-variant: small-caps;
+}

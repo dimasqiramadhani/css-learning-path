@@ -1,0 +1,33 @@
+/* 
+                Using width, max-width and margin: auto;
+                
+                As mentioned in the previous chapter; a block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+                Setting the width of a block-level element will prevent it from stretching out to the edges of its container. Then, you can set the margins to auto, to horizontally center the element within its container. 
+                
+                The element will take up the specified width, and the remaining space will be split equally between the two margins:
+            */
+.width-example1 {
+  width: 800px;
+  border: 1px solid;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin: auto;
+}
+
+/* 
+                NOTE: The problem with the <div> above occurs when the browser window is smaller than the width of the element. The browser then adds a horizontal scrollbar to the page.
+
+                This <div> element has a max-width of 500px, and margin set to auto.
+
+                TIP: Resize the browser window to less than 500px wide, to see the difference between the two divs!
+            */
+.maxwidth-example2 {
+  max-width: 800px;
+  border: 1px solid;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin: auto;
+}

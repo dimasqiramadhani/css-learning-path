@@ -1,0 +1,10 @@
+.border-shorthand {
+  padding: 20px;
+  margin: 10px;
+
+  border: 10px solid black;
+  /* border-top: 10px solid black; */
+  /* border-left: 10px solid black; */
+  /* border-bottom: 10px solid black; */
+  /* border-right: 10px solid black; */
+}

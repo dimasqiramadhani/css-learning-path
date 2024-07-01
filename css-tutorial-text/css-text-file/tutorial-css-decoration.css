@@ -1,0 +1,85 @@
+/* text-decoration-line property */
+
+.h1-example1 {
+  text-decoration-line: line-through;
+}
+
+.h1-example2 {
+  text-decoration-line: overline;
+}
+
+.h1-example3 {
+  text-decoration-line: underline;
+}
+
+.h1-example4 {
+  text-decoration-line: overline underline line-through;
+}
+
+/* text-decoration-color property */
+
+.h1-example6 {
+  text-decoration-line: line-through;
+  text-decoration-color: #0000ff;
+}
+
+.h1-example7 {
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+}
+
+.h1-example8 {
+  text-decoration-line: line-through;
+  text-decoration-color: rgb(0, 128, 0);
+}
+
+.h1-example9 {
+  text-decoration-line: line-through;
+  text-decoration-color: hsl(271, 76%, 53%);
+}
+
+/* text-decoration-style property */
+
+.h1-example10 {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+
+.h1-example11 {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.h1-example12 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.h1-example13 {
+  text-decoration-line: line-through;
+  text-decoration-style: wavy;
+}
+
+/* text-decoration-thickness property */
+
+.h1-example14 {
+  text-decoration: underline;
+  text-decoration-thickness: auto;
+}
+
+.h1-example15 {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+
+.h1-example16 {
+  text-decoration: underline;
+  text-decoration-thickness: 25%;
+}
+
+.h1-example17 {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: double;
+  text-decoration-thickness: 5px;
+}

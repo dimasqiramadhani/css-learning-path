@@ -1,0 +1,22 @@
+/* 
+    Comments are used to explain the code, and may help when you edit the source code at a later date.
+
+    Comments are ignored by browsers.
+
+    A CSS comment is placed inside the <style> element, and starts with /* and ends with.
+
+    Comments can also span multiple lines.
+                
+    This is a CSS comment, everything write in here will not read by the browser. 
+*/
+
+h1 {
+  color: white;
+  font-size: 30px; /* You can add comments wherever you want in the code */
+  background-color: black;
+}
+
+p {
+  font-size: 15px;
+  color: /* even in the middle of a code line */ red;
+}

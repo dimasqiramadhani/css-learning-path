@@ -1,0 +1,49 @@
+/* 
+                Remove Default Settings
+
+                The list-style-type:none property can also be used to remove the markers/bullets. Note that the list also has default margin and padding. To remove this, add margin:0 and padding:0 to <ul> or <ol>:
+            */
+ul.ul-example1 {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  /* font-size: 25px; */
+  list-style-type: circle;
+  /* list-style-position: inside; */
+}
+
+/* List style shorthand */
+ul.ul-example2 {
+  list-style: square outside;
+}
+
+/* 
+                We can also style lists with colors, to make them look a little more interesting.
+
+                Anything added to the <ol> or <ul> tag, affects the entire list, while properties added to the <li> tag will affect the individual list items.
+            */
+
+ol.ol-example1 {
+  background-color: #ff9999;
+  padding: 20px;
+  list-style-position: outside;
+}
+
+.ol-example1 li {
+  padding: 5px;
+  color: darkred;
+  margin-left: 35px;
+  background-color: #ffe5e5;
+}
+
+ol.ol-example2 {
+  background-color: #3399ff;
+  padding: 20px;
+}
+
+.ol-example2 li {
+  padding: 5px;
+  margin-left: 35px;
+  background-color: #cce5ff;
+  color: darkblue;
+}

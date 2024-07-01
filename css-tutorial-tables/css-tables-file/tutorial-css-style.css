@@ -1,0 +1,45 @@
+table,
+th,
+td {
+  /* border: 1px solid; */
+  border-collapse: collapse;
+}
+
+/* 
+    To control the space between the border and the content in a table, use the padding property on <td> and <th> elements.
+*/
+
+/* 
+    To add Horizontal Divider add the border-bottom property to <th> and <td> for horizontal dividers.
+*/
+
+th,
+td {
+  padding: 13px;
+  width: 50%;
+  text-align: left;
+  /* border-bottom: 1px solid; */
+}
+
+/* 
+    To add Hover effect to the table, use the hover: selector on <tr> to highlight table rows on mouse over.
+*/
+
+/* tr:hover {
+    background-color: black;
+    color: white;
+} */
+
+/* 
+    Striped Table for Zebra-striped tables, use the nth-child:() selector and add a background-color to all even (or odd) table rows.
+*/
+
+tr:nth-child(even) {
+  background-color: rgb(216, 214, 214);
+  /* color: white; */
+}
+
+th {
+  background-color: #04aa6d;
+  color: white;
+}

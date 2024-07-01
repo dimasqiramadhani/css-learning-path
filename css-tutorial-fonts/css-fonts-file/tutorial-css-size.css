@@ -1,0 +1,17 @@
+/* Absolute value px */
+
+.p-example1 {
+  font-size: 30px;
+}
+
+/* Relative value em */
+
+.p-example2 {
+  font-size: 2.5em;
+}
+
+/* Relative value vw */
+
+.p-example3 {
+  font-size: 3vw;
+}

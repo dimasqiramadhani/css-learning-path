@@ -1,0 +1,41 @@
+a {
+  display: inline-block;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.example1 {
+  color: black;
+}
+
+.example2 {
+  color: rgb(72, 199, 72);
+  text-decoration: none;
+}
+
+.example3 {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid green;
+}
+
+.example3:hover {
+  background-color: rgb(50, 192, 50);
+  color: white;
+  border: 1px solid rgb(50, 192, 50);
+}
+
+.example4 {
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  border: 1px solid red;
+  padding: 10px 20px;
+}
+
+.example4:hover {
+  background-color: rgb(207, 45, 45);
+  border: 1px solid rgb(207, 45, 45);
+}

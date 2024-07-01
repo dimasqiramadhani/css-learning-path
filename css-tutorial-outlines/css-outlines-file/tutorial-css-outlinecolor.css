@@ -1,0 +1,31 @@
+/* example outline color name */
+
+.p-example1 {
+  border: 1px solid black;
+  outline-color: green;
+  outline-style: solid;
+}
+
+/* example outline color rgb */
+
+.p-example2 {
+  border: 1px solid black;
+  outline-color: rgb(0, 128, 0);
+  outline-style: solid;
+}
+
+/* example outline color hsl */
+
+.p-example3 {
+  border: 1px solid black;
+  outline-color: hsl(120, 100%, 25%);
+  outline-style: solid;
+}
+
+/* example outline color hex */
+
+.p-example4 {
+  border: 1px solid black;
+  outline-color: #008000;
+  outline-style: solid;
+}

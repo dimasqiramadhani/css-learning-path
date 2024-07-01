@@ -1,0 +1,63 @@
+/* Arial font family */
+
+.p-example1 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Verdana font family */
+
+.p-example2 {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Tahoma font family */
+
+.p-example3 {
+  font-weight: bold;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Trebuchet MS font family */
+
+.p-example4 {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Times New Roman font family */
+
+.p-example5 {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Georgia font family */
+
+.p-example6 {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Garamond font family */
+
+.p-example7 {
+  font-weight: bold;
+  font-family: Garamond;
+}
+
+/* Courier New font family */
+
+.p-example8 {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Brush Script MT font family */
+
+.p-example9 {
+  font-weight: bold;
+  font-family: "Brush Script MT";
+}

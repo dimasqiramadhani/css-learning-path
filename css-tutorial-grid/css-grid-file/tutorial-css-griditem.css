@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  /* 
+        The grid-column Property:
+
+        The grid-column property defines on which column(s) to place an item.
+
+        You define where the item will start, and where the item will end. 
+
+        NOTE: The grid-column property is a shorthand property for the grid-column-start and the grid-column-end properties.
+
+        To place an item, you can refer to line numbers, or use the keyword "span" to define how many columns the item will span.
+    */
+  grid-column: 2 / span 3;
+  /* 
+        The grid-row Property:
+
+        The grid-row property defines on which row to place an item.
+
+        You define where the item will start, and where the item will end.
+
+        NOTE: The grid-row property is a shorthand property for the grid-row-start and the grid-row-end properties.
+
+        To place an item, you can refer to line numbers, or use the keyword "span" to define how many rows the item will span
+     */
+  grid-row: 1 / 4;
+  /* 
+        The grid-area Property
+
+        The grid-area property can be used as a shorthand property for the grid-row-start, grid-column-start, grid-row-end and the grid-column-end properties. 
+    */
+  grid-area: 1 / 2 / 5 / 6;
+}

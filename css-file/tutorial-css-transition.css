@@ -1,0 +1,55 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  color: white;
+  /* 
+        Change Several Property Values
+
+        The following example adds a transition effect for both the width and height property, with a duration of 2 seconds for the width and 4 seconds for the height. 
+    */
+  transition-duration: 1s;
+
+  /* 
+        The animation-timing-function property specifies the speed curve of the animation.
+
+        The animation-timing-function property can have the following values:
+
+            1. ease - Specifies an animation with a slow start, then fast, then end slowly (this is default)
+            
+            2. linear - Specifies an animation with the same speed from start to end
+            
+            3. ease-in - Specifies an animation with a slow start
+            
+            4. ease-out - Specifies an animation with a slow end
+            
+            5. ease-in-out - Specifies an animation with a slow start and end
+            
+            6. cubic-bezier(n,n,n,n) - Lets you define your own values in a cubic-bezier function
+            
+        The following example shows some of the different speed curves that can be used.
+    */
+  transition-timing-function: ease;
+
+  /* 
+        Delay the Transition Effect
+
+        The transition-delay property specifies a delay (in seconds) for the transition effect. 
+    */
+  transition-delay: 1s;
+
+  /*  
+        The transition-property property specifies the name of the CSS property the transition effect is for (the transition effect will start when the specified CSS property changes).
+
+        TIP: A transition effect could typically occur when a user hover over an element.
+        
+        NOTE: Always specify the transition-duration property, otherwise the duration is 0, and the transition will have no effect.
+    */
+  transition-property: width, height;
+}
+
+.box:hover {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}

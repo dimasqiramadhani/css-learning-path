@@ -1,0 +1,10 @@
+.border-width {
+  border-style: solid;
+  padding: 20px;
+  margin: 10px;
+
+  /* border-width: thick; */
+  /* border-width: medium; */
+  /* border-width: thick; */
+  border-width: medium medium medium 20px;
+}

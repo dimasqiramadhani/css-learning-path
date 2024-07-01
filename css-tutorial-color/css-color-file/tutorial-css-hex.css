@@ -1,0 +1,28 @@
+/* hexa color syntax */
+
+.heading-hex1,
+.paragraph-hex1 {
+  width: 100%;
+  border: 1px solid #ff0000;
+  color: #ff0000;
+  background-color: #fdf13f;
+}
+
+/* hexa shade of gray syntax */
+
+.heading-hex2,
+.paragraph-hex2 {
+  width: 100%;
+  border: 1px solid #b9b9b9;
+  background-color: #a09f9f;
+  color: #1d1d1d;
+}
+
+/* hexa only 3 digit values */
+
+.heading-hex3,
+.paragraph-hex3 {
+  width: 100%;
+  border: 1px solid #000;
+  background-color: #fba;
+}

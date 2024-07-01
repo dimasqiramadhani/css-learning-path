@@ -1,0 +1,25 @@
+body {
+  width: 5000px;
+  height: 5000px;
+  background-image: url(../Assets/Images/picture-3.jpg);
+
+  background-repeat: repeat;
+
+  /* 
+    If the image above is repeated only horizontally (background-repeat: repeat-x;), the background will look better 
+*/
+
+  /* background-repeat: repeat-x; */
+
+  /* 
+   To repeat an image vertically, set background-repeat: repeat-y.
+*/
+
+  /* background-repeat: repeat-y; */
+
+  /* 
+   Showing the background image only once is also specified by the background-repeat property
+*/
+
+  /* background-repeat: no-repeat; */
+}

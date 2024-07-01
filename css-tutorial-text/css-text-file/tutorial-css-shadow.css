@@ -1,0 +1,39 @@
+.h1-example1 {
+  border: 1px solid black;
+  text-align: center;
+  background-color: green;
+  color: green;
+  padding: 10px;
+  width: 30%;
+  text-shadow: -1px -1px green, 0px 0px green, 1px 1px black, 2px 2px black;
+}
+
+.h1-example2 {
+  border: 1px solid black;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  width: 30%;
+  text-shadow: 2px 2px black;
+  color: white;
+}
+
+.h1-example3 {
+  border: 1px solid black;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  width: 30%;
+  text-shadow: 1px 1px 5px red, 1px 1px 7px blue;
+  color: white;
+}
+
+.h1-example4 {
+  border: 1px solid black;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  width: 30%;
+  text-shadow: 1px 1px white, 2px 2px white, 3px 3px black, 4px 4px black;
+  color: white;
+}

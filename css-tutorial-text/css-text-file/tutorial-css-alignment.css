@@ -1,0 +1,39 @@
+/* 
+                text-align property
+            */
+
+.div-example1 {
+  text-align: left;
+  /* text-align: justify; */
+  /* text-align: right; */
+  /* text-align: center; */
+}
+
+/* text direction */
+
+.div-example2 {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+/* text-align-last property */
+
+.div-example3 {
+  /* text-align-last: left; */
+  /* text-align-last: justify; */
+  /* text-align-last: right; */
+  text-align-last: center;
+}
+
+/* vertical-align property */
+
+span {
+  /* vertical-align: super; */
+  /* vertical-align: baseline; */
+  vertical-align: middle;
+  /* vertical-align: sub; */
+  /* vertical-align: text-bottom; */
+  /* vertical-align: top; */
+  /* vertical-align: text-top; */
+  font-size: 5px;
+}

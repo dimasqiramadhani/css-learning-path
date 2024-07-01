@@ -1,0 +1,33 @@
+/* example outline offset */
+
+.p-example1 {
+  border: 1px solid black;
+  background-color: blueviolet;
+  outline-offset: 5px;
+  outline-color: green;
+  outline-style: solid;
+}
+
+.p-example2 {
+  border: 1px solid black;
+  background-color: blue;
+  outline-offset: 5px;
+  outline-color: rgb(0, 128, 0);
+  outline-style: solid;
+}
+
+.p-example3 {
+  border: 1px solid black;
+  background-color: red;
+  outline-offset: 5px;
+  outline-color: hsl(120, 100%, 25%);
+  outline-style: solid;
+}
+
+.p-example4 {
+  border: 1px solid black;
+  background-color: yellow;
+  outline-color: hsl(120, 100%, 25%);
+  outline-style: solid;
+  outline-offset: 5px;
+}

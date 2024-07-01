@@ -1,0 +1,15 @@
+.box-model1 {
+    width: 50%;
+    height: 150px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box-model2 {
+    width: 150;
+    height: 150px;
+    border:5px solid black;
+    padding: 10px;
+    margin: 10px;
+}

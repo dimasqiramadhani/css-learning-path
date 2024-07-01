@@ -1,0 +1,29 @@
+/* rgb syntax color */
+
+.heading-rgb1,
+.paragraph-rgb1 {
+  width: 100%;
+  border: 1px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+  background-color: rgb(253, 241, 63);
+}
+
+/* shade of gray using rgb */
+
+.heading-rgb2,
+.paragraph-rgb2 {
+  width: 100%;
+  border: 1px solid rgb(3, 3, 3);
+  background-color: rgb(200, 200, 200);
+  color: rgb(60, 60, 60);
+}
+
+/* rgba color syntax */
+
+.heading-rgb3,
+.paragraph-rgb3 {
+  width: 100%;
+  border: 1px solid rgba(0, 255, 0, 1);
+  background-color: rgba(0, 255, 213, 0.2);
+  color: rgba(236, 57, 57, 0.5);
+}

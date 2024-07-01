@@ -1,0 +1,13 @@
+/* text-transform property */
+
+.h1-example1 {
+  text-transform: capitalize;
+}
+
+.h1-example2 {
+  text-transform: lowercase;
+}
+
+.h1-example3 {
+  text-transform: uppercase;
+}

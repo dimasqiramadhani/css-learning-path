@@ -1,0 +1,39 @@
+/* 
+                The text-indent property is used to specify the indentation of the first line of a text 
+            */
+
+.h1-example1 {
+  text-indent: 40px;
+}
+
+/* 
+                The letter-spacing property is used to specify the space between the characters in a text.
+
+                The following example demonstrates how to increase or decrease the space between characters
+            */
+
+.h1-example2 {
+  letter-spacing: 30px;
+}
+
+/* 
+                The line-height property is used to specify the space beetwen lines.
+            */
+
+.h1-example3 {
+  line-height: 40px;
+}
+
+/*  
+                The word-spacing property is used to specify the space between the words in a text.
+            */
+.h1-example4 {
+  word-spacing: 20px;
+}
+
+/* 
+                The white-space property specifies how white-space inside an element is handled.
+            */
+.p-example5 {
+  white-space: nowrap;
+}

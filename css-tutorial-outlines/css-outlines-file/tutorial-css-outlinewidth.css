@@ -1,0 +1,28 @@
+/* example outline width thin / 1px */
+
+.p-example1 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+
+  outline-style: solid;
+  outline-width: 6px;
+}
+
+/* example outline width medium / 3px */
+
+.p-example2 {
+  border: 1px solid red;
+
+  outline-style: solid;
+  outline-width: medium;
+}
+
+/* example outline width thick / 4px */
+
+.p-example3 {
+  border: 1px solid red;
+
+  outline-style: solid;
+  outline-width: thin;
+}

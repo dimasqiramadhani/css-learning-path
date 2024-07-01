@@ -1,0 +1,23 @@
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.one {
+  background-color: aqua;
+}
+
+.two {
+  position: absolute;
+  z-index: -1;
+  left: 30px;
+  background-color: aquamarine;
+}
+
+.three {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  z-index: -2;
+  background-color: bisque;
+}

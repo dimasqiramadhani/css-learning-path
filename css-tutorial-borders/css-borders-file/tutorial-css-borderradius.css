@@ -1,0 +1,24 @@
+div {
+  padding: 20px;
+  margin: 10px;
+}
+
+.border-radius1 {
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+.border-radius2 {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.border-radius3 {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.border-radius4 {
+  border: 1px solid black;
+  border-radius: 15px;
+}

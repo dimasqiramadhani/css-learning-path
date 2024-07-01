@@ -1,0 +1,15 @@
+/* width and height property */
+
+.dimension1 {
+  width: 1000px;
+  height: 150px;
+  background-color: powderblue;
+}
+
+/* max-width property */
+
+.dimension2 {
+  max-width: 600px;
+  height: 150px;
+  background-color: lightgreen;
+}

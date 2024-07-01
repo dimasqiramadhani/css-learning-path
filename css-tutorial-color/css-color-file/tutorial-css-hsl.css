@@ -1,0 +1,29 @@
+/* hsl syntax color */
+
+.heading-hsl1,
+.paragraph-hsl1 {
+  width: 100%;
+  border: 1px solid hsl(0, 100%, 50%);
+  color: hsl(0, 100%, 50%);
+  background-color: hsl(56, 98%, 62%);
+}
+
+/* shade of gray using hsl */
+
+.heading-hsl2,
+.paragraph-hsl2 {
+  width: 100%;
+  border: 1px solid hsl(0, 0%, 1%);
+  background-color: hsl(0, 39%, 76%);
+  color: hsl(101, 97%, 56%);
+}
+
+/* rgba color syntax */
+
+.heading-hsl3,
+.paragraph-hsl3 {
+  width: 100%;
+  border: 1px solid hsla(120, 100%, 50%, 0.5);
+  background-color: hsla(170, 100%, 50%, 0.2);
+  color: hsla(0, 82%, 57%, 0.5);
+}

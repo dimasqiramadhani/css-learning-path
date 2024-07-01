@@ -1,0 +1,27 @@
+.container {
+  padding: 15px;
+  border: 1px solid black;
+}
+
+img {
+  width: 50%;
+  float: left;
+}
+
+.box {
+  float: left;
+  padding: 15px;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: blue;
+  float: right;
+}

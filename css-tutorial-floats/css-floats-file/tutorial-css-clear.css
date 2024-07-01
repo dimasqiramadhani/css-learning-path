@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box {
+  width: 33.33%;
+  padding: 100px;
+  float: left;
+}
+
+.one {
+  background-color: rgb(145, 145, 145);
+}
+
+.two {
+  background-color: rgb(173, 173, 173);
+}
+
+.three {
+  background-color: rgb(212, 212, 212);
+}

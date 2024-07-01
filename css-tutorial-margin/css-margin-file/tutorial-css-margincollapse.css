@@ -1,0 +1,13 @@
+.first {
+  margin: 0 0 50px 0;
+}
+
+.second {
+  margin: 30px 0 0 0;
+}
+
+/* 
+    In the example above, the <h1 class="first"> element has a bottom margin of 50px and the <h1 class="second"> element has a top margin set to 30px.
+
+    Common sense would seem to suggest that the vertical margin between the <h1 class="first"> and the <h1 class="second"> would be a total of 80px (50px + 30px). But due to margin collapse, the actual margin ends up being 50px.
+*/

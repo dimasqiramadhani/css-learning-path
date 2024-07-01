@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Dimasqi Ramadhani" />
+    <meta name="description" content="Learn CSS Background Color Tutorial" />
+    <meta name="keywords" content="HTML, CSS, Javascript" />
+    <meta http-equiv="refresh" content="30" />
+    <title>Tutorial | Background Color CSS</title>
+    <link
+      rel="stylesheet"
+      href="css-backgrounds-file/tutorial-css-backgroundcolor.css" />
+  </head>
+  <body>
+    <!-- 
+            Background-Color
+
+            The CSS background properties are used to add background effects for elements.
+
+            With CSS, a color is most often specified by:
+                
+                1. A valid color name - like "red"
+                2. A HEX value - like "#FF0000"
+                3. An RGB or HSL value - like "RGB(255,0,0)"
+            
+            We can also set the background-color for any HTML elements.
+        -->
+
+    <div class="kotak1">
+      <div class="kotak2"></div>
+    </div>
+
+    <!-- 
+            Opacity / Transparency
+
+            The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent.
+
+            NOTE: When using the opacity property to add transparency to the background of an element, all of its child elements inherit the same transparency. This can make the text inside a fully transparent element hard to read.
+        -->
+
+    <div class="box satu">opacity 1</div>
+    <div class="box dua">opacity 0.8</div>
+    <div class="box tiga">opacity 0.6</div>
+    <div class="box empat">opacity 0.4</div>
+    <div class="box lima">opacity 0.2</div>
+    <div class="box enam">opacity 0</div>
+
+    <!-- 
+            Transparency using RGBA
+            
+            If you do not want to apply opacity to child elements, like in our example above, use RGBA color values. The following example sets the opacity for the background color and not the text.
+
+            You can use RGB as a color value. In addition to RGB, you can use an RGB color value with an alpha channel (RGBA) - which specifies the opacity for a color.
+
+            An RGBA color value is specified with: rgba(red, green, blue, alpha). The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).
+         -->
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.border-color {
+  border-style: solid;
+  padding: 20px;
+  margin: 10px;
+
+  /* border-color: red; */
+
+  /* 
+        Specific Side Colors
+        
+        The border-color property can have from one to four values (for the top border, right border, bottom border, and the left border). 
+    */
+
+  border-color: red green blue yellow;
+}

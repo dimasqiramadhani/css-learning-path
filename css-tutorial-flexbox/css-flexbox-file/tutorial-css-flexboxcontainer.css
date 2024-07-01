@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  /* height: 400px; */
+  border: 2px solid black;
+  margin: 50px auto;
+  /* 
+        The flex container becomes flexible by setting the display property to flex 
+    */
+  display: flex;
+  /* 
+        The flex-direction Property
+        
+        The flex-direction property defines in which direction the container wants to stack the flex items. 
+    */
+  /* flex-direction: column; */
+  /* 
+        The flex-wrap Property
+        
+        The flex-wrap property specifies whether the flex items should wrap or not. 
+    */
+  /* flex-wrap: wrap; */
+  /* 
+        The flex-flow Property
+
+        The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.
+    */
+  /* flex-flow: column wrap; */
+  /* 
+        The justify-content Property
+
+        The justify-content property is used to align the flex items
+    */
+  /* justify-content: space-between; */
+  /* 
+        The align-items Property
+
+        The align-items property is used to align the flex items.
+    */
+  /* align-items: stretch; */
+
+  /* 
+        The align-content Property
+
+        The align-content property is used to align the flex lines. 
+    */
+  /* align-content: stretch; */
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  font-size: 30px;
+}

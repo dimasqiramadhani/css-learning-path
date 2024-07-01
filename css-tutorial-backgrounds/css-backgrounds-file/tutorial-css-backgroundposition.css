@@ -1,0 +1,14 @@
+body {
+  width: 1000px;
+  height: 1000px;
+  background-image: url(../Assets/Images/picture-3.jpg);
+  background-repeat: no-repeat;
+
+  /* background-position: right bottom; */
+  /* background-position: 50% 50%; */
+  /* background-position: 100px 70px; */
+}
+
+h1 {
+  color: blue;
+}

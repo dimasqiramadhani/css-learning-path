@@ -1,0 +1,30 @@
+/* Monospace font family */
+
+.p-example1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Sans-serif font family */
+
+.p-example2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Serif font family */
+
+.p-example3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Cursive font family */
+
+.p-example4 {
+  font-family: cursive;
+}
+
+/* Fantasi font family */
+
+.p-example5 {
+  font-family: fantasy;
+}

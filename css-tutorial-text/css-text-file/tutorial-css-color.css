@@ -1,0 +1,18 @@
+/* 
+                NOTE: High contrast is very important for people with vision problems. So, always ensure that the contrast between the text color and the background color (or background image) is good!
+            */
+
+body {
+  background-color: black;
+  color: blue;
+}
+
+h1 {
+  background-color: grey;
+  color: white;
+}
+
+div {
+  background-color: blue;
+  color: white;
+}

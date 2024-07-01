@@ -1,0 +1,9 @@
+/* 
+                NOTE: When specifying a font in CSS, always list at minimum one fallback font (to avoid unexpected behaviors). So, also here you should add a generic font family (like serif or sans-serif) to the end of the list.
+            */
+
+body {
+  color: tomato;
+  text-shadow: 1px 1px black;
+  font-family: "Sofia", sans-serif;
+}

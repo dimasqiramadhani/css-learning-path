@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Dimasqi Ramadhani" />
+    <meta name="description" content="Learn CSS Box Model Property Tutorial" />
+    <meta name="keywords" content="HTML, CSS, Javascript" />
+    <meta http-equiv="refresh" content="30" />
+    <title>Tutorial | Box Model Property CSS</title>
+    <link rel="stylesheet" href="css-file/tutorial-css-boxmodel.css" />
+  </head>
+  <body>
+    <!-- 
+            In CSS, the term "box model" is used when talking about design and layout.
+
+            The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins. The image below illustrates the box model
+
+            Explanation of the different parts:
+
+                1. Content  - The content of the box, where text and images appear.
+                2. Padding  - Clears an area around the content. The padding is transparent.
+                3. Border   - A border that goes around the padding and content.
+                4. Margin   - Clears an area outside the border. The margin is transparent.
+
+            The box model allows us to add a border around elements, and to define space between elements. 
+        -->
+    <div class="box-model1">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit culpa ad
+      saepe odio atque voluptatum quae, deleniti adipisci accusantium quibusdam
+      ut veniam cumque ab itaque doloribus odit tempora sed cum.
+    </div>
+
+    <!-- 
+            In order to set the width and height of an element correctly in all browsers, you need to know how the box model works.
+
+            IMPORTANT: When you set the width and height properties of an element with CSS, you just set the width and height of the content area. To calculate the total width and height of an element, you must also include the padding and borders.
+        -->
+    <div class="box-model2">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis
+      aliquid ullam quia, quas perferendis soluta, pariatur autem qui velit
+      quibusdam vitae veritatis a quam id ipsum reprehenderit dolor, iusto
+      cupiditate!
+    </div>
+
+    <!-- 
+            150px (width of content area)
+            + 20px (left padding 10px + right padding 10px)
+            + 10px (left border 5px + right border 5px)
+            +20px  (left margin 10px + right margin 10px)
+            = 200px (total width)
+
+            150px (height of content area)
+            + 20px (top padding 10px + bottom padding 10px)
+            + 10px (top border 5px + bottom border 5px)
+            + 20px (top margin 10px + bottom margin 10px)
+            = 200px (total height)
+
+            The total width of an element should be calculated like this:
+
+            Total element width = width + left padding + right padding + left border + right border.
+
+            The total height of an element should be calculated like this:
+
+            Total element height = height + top padding + bottom padding + top border + bottom border.
+
+            NOTE: he margin property also affects the total space that the box will take up on the page, but the margin is not included in the actual size of the box. The box's total width and height stops at the border.
+        -->
+  </body>
+</html>

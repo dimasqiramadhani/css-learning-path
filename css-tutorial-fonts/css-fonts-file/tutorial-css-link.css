@@ -1,0 +1,51 @@
+.a-example0:link,
+.a-example0:visited {
+  background-color: white;
+  border: 1px solid green;
+  color: black;
+  padding: 14px 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.a-example0:hover,
+.a-example0:active {
+  background-color: green;
+  color: white;
+}
+
+/* Univisited link */
+
+.a-example1:link,
+.a-example1 {
+  color: red;
+  text-decoration: none;
+  background-color: yellow;
+}
+
+/* Visited link */
+
+.a-example2:visited,
+.a-example2 {
+  color: green;
+  text-decoration: line-through;
+  background-color: cyan;
+}
+
+/* Mouse over link */
+
+.a-example3:hover,
+.a-example3 {
+  color: hotpink;
+  text-decoration: overline;
+  background-color: lightgreen;
+}
+
+/* Selected link */
+
+.a-example4:active,
+.a-example4 {
+  color: blue;
+  text-decoration: underline;
+  background-color: hotpink;
+}
